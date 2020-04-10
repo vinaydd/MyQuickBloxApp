@@ -1,5 +1,5 @@
 apply plugin: 'com.android.application'
-
+apply plugin: 'com.google.gms.google-services'
 android {
     compileSdkVersion 29
     buildToolsVersion "29.0.3"
@@ -44,8 +44,13 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
     implementation 'com.android.support:multidex:1.0.3'
     implementation "com.quickblox:quickblox-android-sdk-videochat-webrtc:3.9.2"
+    implementation "com.quickblox:quickblox-android-sdk-messages:3.9.2"
     implementation 'com.google.android.material:material:1.1.0'
-    implementation 'com.github.bumptech.glide:glide:4.7.1'
+    implementation 'com.github.bumptech.glide:glide:4.11.0'
+    implementation "com.google.android.gms:play-services-gcm:17.0.0"
+    implementation "com.google.firebase:firebase-messaging:20.1.5"
+    implementation "com.google.firebase:firebase-core:17.3.0"
+
 
 }
 configurations.all {

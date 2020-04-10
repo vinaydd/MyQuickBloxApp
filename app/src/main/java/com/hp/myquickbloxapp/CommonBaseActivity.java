@@ -473,7 +473,6 @@ public class CommonBaseActivity extends AppCompatActivity {
                 }
                 break;
 
-
         }
     }
 

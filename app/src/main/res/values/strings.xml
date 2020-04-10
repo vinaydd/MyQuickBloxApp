@@ -18,7 +18,7 @@
 
 
 
-    <string name="sender_id"></string>
+    <string name="sender_id">380500832356</string>
 
     <!-- Dialogs strings -->
     <string name="dlg_signal_error">Disconnected… Please check your Internet connection!</string>

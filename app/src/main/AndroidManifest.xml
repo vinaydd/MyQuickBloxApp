@@ -84,20 +84,25 @@
 
         </activity>
 
+        <service
+            android:name=".vedio_audio_call.PushListenerService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
 
-
-
+        <service
+            android:name="com.quickblox.messages.services.fcm.QBFcmPushInstanceIDService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
 
         <service android:name=".vedio_audio_call.LoginService" />
-
         <service android:name=".vedio_audio_call.CallService" />
-
-
-
         <meta-data
             android:name="com.quickblox.messages.TYPE"
             android:value="GCM" />
-
         <meta-data
             android:name="com.quickblox.messages.SENDER_ID"
             android:value="@string/sender_id" />

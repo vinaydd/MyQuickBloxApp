@@ -16,16 +16,12 @@ import java.util.ArrayList;
 
 
 public class AudioConversationFragment extends BaseConversationFragment implements CallActivity.OnChangeAudioDevice {
-
-
     private static final String TAG = AudioConversationFragment.class.getSimpleName();
     public static final String SPEAKER_ENABLED = "is_speaker_enabled";
     private ToggleButton audioSwitchToggleButton;
     private TextView alsoOnCallText;
     private TextView firstOpponentNameTextView;
     private TextView otherOpponentsTextView;
-
-
 
     @Override
     public void onStart() {
