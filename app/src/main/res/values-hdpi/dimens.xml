@@ -1,0 +1,77 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+
+    <dimen name="font_small">12sp</dimen>
+    <dimen name="font_normal">13sp</dimen>
+    <dimen name="font_medium">15sp</dimen>
+    <dimen name="font_large">18sp</dimen>
+    <dimen name="font_xlarge">20sp</dimen>
+    <dimen name="font_xxxlarge">26sp</dimen>
+
+    <dimen name="margin_micro">2dp</dimen>
+    <dimen name="margin_small">5dp</dimen>
+    <dimen name="margin_normal">6dp</dimen>
+    <dimen name="margin_medium">10dp</dimen>
+    <dimen name="margin_large">15dp</dimen>
+    <dimen name="margin_xxlarge">25dp</dimen>
+
+
+    <dimen name="min_height_with">45dp</dimen>
+
+    <dimen name="min_height_with_logo_small">40dp</dimen>
+    <dimen name="min_height_with_logo_micro">20dp</dimen>
+    <dimen name="min_height_with_logo_normal">80dp</dimen>
+    <dimen name="min_height_with_logo_medium">90dp</dimen>
+    <dimen name="min_height_with_logo_large">100dp</dimen>
+    <dimen name="min_height_with_logo_xlarge">120dp</dimen>
+
+    <dimen name="min_height_with_logo_xxlarge">140dp</dimen>
+
+
+    <dimen name="padding_xmicro">1dp</dimen>
+    <dimen name="padding_micro">2dp</dimen>
+    <dimen name="padding_small">5dp</dimen>
+    <dimen name="padding_normal">6dp</dimen>
+
+
+    <dimen name="chip_padding">2dp</dimen>
+    <dimen name="chip_side_padding">6dp</dimen>
+    <dimen name="chip_spacing">4dp</dimen>
+    <dimen name="chip_line_spacing">4dp</dimen>
+    <dimen name="chip_corner_radius">16dp</dimen>
+
+
+
+
+
+
+    <dimen name="toolbar_elevation">4dp</dimen>
+    <dimen name="action_bar_height">80dp</dimen>
+
+    <dimen name="toggle_button_params">60dp</dimen>
+    <dimen name="element_fragment_margin">30dp</dimen>
+    <dimen name="element_fragment_margin_small">8dp</dimen>
+
+    <dimen name="margin_common">16dp</dimen>
+
+    <dimen name="margin_very_small">3dp</dimen>
+
+    <dimen name="text_size">20sp</dimen>
+    <dimen name="text_size_ringing">16sp</dimen>
+
+    <dimen name="padding_bottom">62dp</dimen>
+
+    <dimen name="caller_name_text_size">22sp</dimen>
+    <dimen name="incoming_call_type_text_size">16sp</dimen>
+    <dimen name="also_on_call_text_size">16sp</dimen>
+    <dimen name="other_inc_users_text_size">16sp</dimen>
+
+    <dimen name="call_buttons_diameter">64dp</dimen>
+    <dimen name="call_buttons_padding">16dp</dimen>
+    <dimen name="income_call_buttons_margin">88dp</dimen>
+    <dimen name="also_in_call_text_left_right_padding">64dp</dimen>
+
+    <dimen name="call_avatar_diameter">78dp</dimen>
+
+
+</resources>

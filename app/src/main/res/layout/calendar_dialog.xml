@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="@dimen/margin_medium"
+        android:layout_height="wrap_content">
+
+        <CalendarView
+            android:layout_width="match_parent"
+            android:minDate="20/02/2010"
+            android:layout_height="wrap_content">
+
+        </CalendarView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:weightSum="1.0"
+            android:layout_margin="@dimen/margin_normal"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/confirm"
+                android:layout_width="0dp"
+                android:layout_weight=".50"
+                android:background="@drawable/my_button"
+                android:text="Confirm"
+                android:textSize="@dimen/font_medium"
+                android:textColor="@android:color/white"
+                android:textAllCaps="true"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>
